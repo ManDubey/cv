@@ -1,5 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
 
-    body{
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ nav ul {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  background-color: #Fff;
+  font-family: "comfortaa",sans-serif; 
+  font-size: 1.2em; 
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px; 
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;  
+}
+nav ul li a:hover {
+  color: #ababab;
+}
+
+/* about me */
+
+#welcome-section {
+  top: 20;
+  line-height: 1.6;
+  background: #F5F5F5;
+  min-height: 55vh;
+  padding-top: 45vh;
+  text-align: 
+  
+}
+
+#welcome-section{
+  color:black;
+}
+
+
+body{
             background-color: #eaf6f6;
         }
 hr {
@@ -9,11 +54,12 @@ hr {
         }
         
         
-        h1 {
-          color: #808080;
-            font-size: 2em;
-            margin:.67em 0
-        }
+       .h1{
+         font-size: 40px;
+         color: black;
+         font-family:'Times New Roman';
+
+       }
   td{
     color: white;
     font-size:medium
@@ -139,3 +185,6 @@ h6{
     grid-column: 7/7; 
     background-color:#0080FF;
   }
+.image{
+  background-color:black;
+}
